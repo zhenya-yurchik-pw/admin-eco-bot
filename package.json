@@ -1,0 +1,24 @@
+{
+  "name": "eco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "engines": {
+    "node": "14.15.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cross-fetch": "^3.1.5",
+    "dotenv": "^14.2.0",
+    "node-telegram-bot-api": "^0.56.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
+    "shortid": "^2.2.16"
+  }
+}
